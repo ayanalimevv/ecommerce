@@ -1,0 +1,9 @@
+<% let imgs=['buds-wireless','gt-master','gt-neo'] %>
+<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true ,"autoPlay": true }'>
+    <!-- <div class="carousel-cell">...</div> -->
+    <% imgs.forEach(e=>{ %>
+        <div class="carousel-cell">
+            <img src=<%=`imgs/${e}.jpg`%> alt="">
+        </div>
+    <% }) %>
+  </div>
