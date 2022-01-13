@@ -1,5 +1,13 @@
 nav {
   padding: 1.2rem 1rem !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  z-index: 1000;
 }
 
 nav .nav-item {
@@ -12,5 +20,34 @@ nav .nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+nav .navbar-brand {
+  background: #fec815;
+  letter-spacing: 1.2px;
+  padding: 0.3rem 1rem;
+  color: black;
+}
+
+nav .signup {
+  border: 2px solid #fec815;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+}
+
+nav .signup:hover {
+  background: #fec815;
+}
+
+nav .signup:hover button {
+  color: #fff;
+}
+
+nav i {
+  color: black;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=navbar.css.map */

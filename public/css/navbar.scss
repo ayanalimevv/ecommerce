@@ -1,10 +1,45 @@
-$main-color:#FEC815;
-nav{
-    padding: 1.2rem 1rem !important;
-
-    .nav-item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+$main-color: #fec815;
+$nav-color: rgba(
+  $color: #fff,
+  $alpha: 0.5,
+);
+nav {
+  padding: 1.2rem 1rem !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $nav-color;
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-brand {
+    background: #fec815;
+    letter-spacing: 1.2px;
+    padding: 0.3rem 1rem;
+    color: black;
+  }
+  .signup{
+    border: 2px solid $main-color;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    transition: 300ms ease-out;
+    &:hover{
+      background:$main-color;
+      button{
+        color: #fff;
+      // font-weight: bold;
+      }
+      
     }
+  }
+  i{
+    color: black;
+    font-size: 1.3rem;
+  }
 }

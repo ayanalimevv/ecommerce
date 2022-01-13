@@ -1,9 +1,10 @@
-<% let imgs=['buds-wireless','gt-master','gt-neo'] %>
-<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true ,"autoPlay": true }'>
-    <!-- <div class="carousel-cell">...</div> -->
-    <% imgs.forEach(e=>{ %>
-        <div class="carousel-cell">
-            <img src=<%=`imgs/${e}.jpg`%> alt="">
-        </div>
-    <% }) %>
-  </div>
+<% let imgs=['buds-wireless','realme8','8i','9i','gt-master','gt-neo'] %>
+<section id="banner">
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true ,"autoPlay": true,"wrapAround":true }'>
+        <% imgs.forEach(e=>{ %>
+            <div class="carousel-cell">
+                <img src=<%=`imgs/${e}.jpg`%> alt="">
+            </div>
+        <% }) %>
+      </div>
+</section>

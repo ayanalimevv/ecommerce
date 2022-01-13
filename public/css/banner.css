@@ -3,7 +3,17 @@ img {
   height: auto;
 }
 
-.flickity-page-dots {
+#banner {
+  margin: 78px 0;
+}
+
+#banner .flickity-page-dots {
   display: none;
+}
+
+#banner .flickity-button {
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
 }
 /*# sourceMappingURL=banner.css.map */

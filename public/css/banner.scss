@@ -2,6 +2,13 @@ img{
     width: 100%;
     height: auto;
 }
-.flickity-page-dots{
-    display: none;
+#banner{
+    margin: 78px 0;
+    .flickity-page-dots{
+        display: none;
+    }
+    .flickity-button{
+        background: rgba(255,255,255,0.25);
+        backdrop-filter: blur(4px);
+    }
 }
