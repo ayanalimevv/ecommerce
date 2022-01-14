@@ -1,4 +1,30 @@
 #trending {
   padding: 3rem;
 }
+
+#trending .trending-head {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#trending .trending-div {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#trending .trending-div .card {
+  padding: 1rem;
+}
+
+#trending .trending-div .card .card-title, #trending .trending-div .card .price {
+  text-align: center;
+}
 /*# sourceMappingURL=trending.css.map */

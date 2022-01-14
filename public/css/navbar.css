@@ -34,20 +34,23 @@ nav .signup {
   padding: 0 1rem;
   border-radius: 2rem;
   margin-left: 1rem;
+  background: #fec815;
   -webkit-transition: 300ms ease-out;
   transition: 300ms ease-out;
 }
 
 nav .signup:hover {
-  background: #fec815;
-}
-
-nav .signup:hover button {
-  color: #fff;
+  background: transparent;
 }
 
 nav i {
   color: black;
   font-size: 1.3rem;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+}
+
+nav i:hover {
+  color: #fec815;
 }
 /*# sourceMappingURL=navbar.css.map */

@@ -23,23 +23,24 @@ nav {
     padding: 0.3rem 1rem;
     color: black;
   }
-  .signup{
+  .signup {
     border: 2px solid $main-color;
     padding: 0 1rem;
     border-radius: 2rem;
     margin-left: 1rem;
+    background: $main-color;
     transition: 300ms ease-out;
-    &:hover{
-      background:$main-color;
-      button{
-        color: #fff;
-      // font-weight: bold;
-      }
-      
+    &:hover {
+      background: transparent;
     }
   }
-  i{
+  i {
     color: black;
     font-size: 1.3rem;
+    transition: 300ms ease-out;
+
+    &:hover {
+      color: $main-color;
+    }
   }
 }

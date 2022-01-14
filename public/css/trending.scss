@@ -1,3 +1,20 @@
 #trending{
     padding: 3rem;
+    .trending-head{
+        margin-bottom:2rem;
+        text-align: center;
+    }
+    .trending-div{
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-right: 1rem;
+        .card{
+            padding: 1rem;
+            .card-title,.price{
+               text-align: center;
+            }
+        }
+    }
 }

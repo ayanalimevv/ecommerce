@@ -1,20 +1,24 @@
-<% let trending=['usb-cable','r8','c25','narzo30']; %>
 <section id="trending">
     <div class="row">
         <div class="col-12">
-            <h3>Trending Now</h3>
+            <h3 class="trending-head">Trending Now</h3>
         </div>
 
         <% trending.forEach(e=>{ %>
-        <div class="col-lg-3 col-md-6">
-            <div class="card" style="width: 18rem;">
-                <img src=<%=`imgs/${e}.png`%> class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"></h5>
-                  <h5>Rs. 1000/-</h5>
+            <div class="col-lg-4 col-md-6 trending-div">
+                <div class="card" style="width: 18rem;">
+                    <img src=<%=`imgs/${e.url}.png`%>
+                    class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%=e.title%>
+                        </h5>
+                        <h5 class="price">
+                            <%=e.price%>
+                        </h5>
+                    </div>
                 </div>
-              </div>
-        </div>
-        <% }) %>
+            </div>
+            <% }) %>
     </div>
 </section>
